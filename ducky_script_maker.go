@@ -25,7 +25,7 @@ var (
   }
 
   winHeader = [6]string{
-  	"GUI r",
+    "GUI r",
     "DELAY 500",
     "STRING cmd",
     "DELAY 500",
@@ -34,15 +34,15 @@ var (
   }
 
   linHeader = [4]string{
-  	"CTRL-ALT T",
+    "CTRL-ALT T",
     "DELAY 500",
     "ENTER",
     "DELAY 500",
   }
   macHeader = [6]string{
-  	"GUI SPACE",
+    "GUI SPACE",
     "DELAY 500",
-   	"STRING terminal",
+    "STRING terminal",
     "DELAY 500",   
     "ENTER",
     "DELAY 500",
