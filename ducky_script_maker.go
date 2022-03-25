@@ -131,12 +131,12 @@ func Format_lines(work []string, operatingSys string) []string{
       newHotness = append(newHotness, string(line))
     }
   } else if (operatingSys == "linux"){
-     for _, line := range linHeader {
-       newHotness = append(newHotness, string(line))
+    for _, line := range linHeader {
+      newHotness = append(newHotness, string(line))
     }
   } else if (operatingSys == "mac") {
-  	 for _, line := range macHeader {
-       newHotness = append(newHotness, string(line))
+    for _, line := range macHeader {
+      newHotness = append(newHotness, string(line))
     }
   }
   // Copy over script content
